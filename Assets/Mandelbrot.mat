@@ -83,7 +83,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Angle: {r: 0, g: 0, b: 4, a: 4}
-    - _Area: {r: 0.28255844, g: 0.0013380381, b: 0.24763282, a: 0.13929346}
+    - _Area: {r: 0, g: 0, b: 1.999997, a: 1.1249983}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
