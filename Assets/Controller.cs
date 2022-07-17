@@ -1,10 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
+    public GameObject optionsGameObj;
+    
     public Material material;
     public Vector2 position;
     public float scale;
@@ -78,5 +81,12 @@ public class Controller : MonoBehaviour
             angle -= .01f;
         if (Input.GetKey(KeyCode.E))
             angle += .01f;
+
+        if (Input.GetKey(KeyCode.Escape))   
+            if (optionsGameObj.activeInHierarchy)
+                optionsGameObj.SetActive(false);
+            else
+                optionsGameObj.SetActive(true);
+
     }
 }
